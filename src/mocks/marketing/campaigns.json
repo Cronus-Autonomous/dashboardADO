@@ -1,0 +1,72 @@
+[
+  {
+    "id": "cmp_001",
+    "unitId": "unt_01_jardins",
+    "name": "Inverno VIP - Olhar Marcante",
+    "status": "ACTIVE",
+    "platform": "MetaAds",
+    "investment": 2500.00,
+    "leadsGenerated": 185,
+    "conversions": 42,
+    "cac": 59.52,
+    "revenueGenerated": 16380.00,
+    "roi": 6.55,
+    "startDate": "2026-06-01"
+  },
+  {
+    "id": "cmp_002",
+    "unitId": "unt_01_jardins",
+    "name": "Institucional - Google Search Local",
+    "status": "ACTIVE",
+    "platform": "GoogleAds",
+    "investment": 1200.00,
+    "leadsGenerated": 92,
+    "conversions": 18,
+    "cac": 66.66,
+    "revenueGenerated": 4770.00,
+    "roi": 3.97,
+    "startDate": "2026-01-15"
+  },
+  {
+    "id": "cmp_003",
+    "unitId": "unt_02_goiania",
+    "name": "Tráfego Pago - Combo Cílios + Sobrancelha",
+    "status": "ACTIVE",
+    "platform": "MetaAds",
+    "investment": 1800.00,
+    "leadsGenerated": 145,
+    "conversions": 31,
+    "cac": 58.06,
+    "revenueGenerated": 9450.00,
+    "roi": 5.25,
+    "startDate": "2026-06-10"
+  },
+  {
+    "id": "cmp_004",
+    "unitId": "unt_03_curitiba",
+    "name": "Campanha Micropigmentação Labial",
+    "status": "ACTIVE",
+    "platform": "MetaAds",
+    "investment": 1500.00,
+    "leadsGenerated": 88,
+    "conversions": 14,
+    "cac": 107.14,
+    "revenueGenerated": 7150.00,
+    "roi": 4.76,
+    "startDate": "2026-05-20"
+  },
+  {
+    "id": "cmp_005",
+    "unitId": "unt_04_campinas",
+    "name": "Inauguração Cambuí - Desconto Boas-Vindas",
+    "status": "PAUSED",
+    "platform": "MetaAds",
+    "investment": 3000.00,
+    "leadsGenerated": 120,
+    "conversions": 11,
+    "cac": 272.72,
+    "revenueGenerated": 2150.00,
+    "roi": 0.71,
+    "startDate": "2026-05-01"
+  }
+]

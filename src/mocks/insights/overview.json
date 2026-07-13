@@ -1,0 +1,76 @@
+[
+  {
+    "unitId": "unt_04_campinas",
+    "critical": [
+      "Fluxo de caixa operacional negativo (R$ -2.500,00) indicando risco iminente de insolvência no curtíssimo prazo.",
+      "Atingimento de meta crítico de apenas 37.5%, com faturamento estagnado em R$ 15.000,00 contra meta de R$ 40.000,00.",
+      "Ocupação de agenda alarmante de 40%, resultando em altíssima capacidade ociosa e profissionais subutilizados.",
+      "Taxa de Churn em patamar de crise (11%) combinado com baixa retenção de pacientes (62%).",
+      "Inadimplência e pendência de 100% no repasse de Royalties franqueados (R$ 900,00 pendentes).",
+      "ROI de marketing em colapso (1.5) impulsionado por CAC abusivo de R$ 65,00."
+    ],
+    "warnings": [
+      "Taxas de No-Show (9%) e Cancelamentos (14%) substancialmente acima da média da rede.",
+      "Taxa de automação de inteligência artificial extremamente baixa (29.6%) gerando sobrecarga operacional humana.",
+      "Campanha de inauguração Cambuí apresentando ROI destrutivo de valor (0.71) e já pausada."
+    ],
+    "opportunities": [
+      "Reativação e setup emergencial do módulo de IA 'Boas-vindas' (atualmente pausado) para triagem rápida.",
+      "Desenho de ações locais focadas em cross-sell e up-sell, hoje operando em níveis marginais (8% e 5%).",
+      "Otimização da conversão do funil de vendas, que perde 71% dos leads qualificados antes da avaliação."
+    ],
+    "highlights": [],
+    "summary": "A unidade Campinas opera em sinal vermelho generalizado. Recém-inaugurada, a operação não tracionou, apresentando queima de caixa, marketing ineficiente, funil comercial estagnado e dependência crítica de suporte da franqueadora para reestruturação imediata."
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "critical": [
+      "Repasse de Royalties incompleto com saldo pendente de R$ 604,00 junto à franqueadora."
+    ],
+    "warnings": [
+      "Leve retração no faturamento frente ao mês anterior (-1.2%), interrompendo curva histórica de crescimento.",
+      "Atingimento da meta mensal abaixo do esperado (96.44%), faturando R$ 43.400,00 de R$ 45.000,00.",
+      "Taxas de cross-sell (18%) e up-sell (11%) demonstrando estagnação na esteira de produtos pós-procedimento."
+    ],
+    "opportunities": [
+      "Expansão da automação de IA para os módulos de Cross-Sell e Recuperação, visando capturar receita reprimida de R$ 13.200,00 já gerada indiretamente por conversas.",
+      "Ajuste fino no agendamento preventivo para mitigar a taxa de cancelamento de 9%."
+    ],
+    "highlights": [
+      "A profissional Fernanda Alencar (Micropigmentação) mantém ticket médio saudável de R$ 250,00 e lidera o ranking local."
+    ],
+    "summary": "Curitiba apresenta uma operação madura, porém estagnada e com leve estresse de fluxo de caixa refletido no atraso parcial dos royalties. Há clara oportunidade de ganho de margem através da aceleração de módulos de automação e vendas internas."
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "critical": [],
+    "warnings": [
+      "Ticket médio geral (R$ 240,00) abaixo do benchmark do top 10 da rede (R$ 265,00).",
+      "Faturamento regionalizado de R$ 52.100,00 empatado com a média regional, sem ganho de market share expressivo."
+    ],
+    "opportunities": [
+      "A automação de lembretes preventivos contra No-Show gerou R$ 14.200,00 e pode ser estendida para campanhas sazonais ativas.",
+      "Elevar o cross-sell (hoje em 22%) utilizando a esteticista Juliana Lima para conversão de produtos home care no balcão."
+    ],
+    "highlights": [
+      "Meta mensal batida com sucesso (104.2%), atingindo R$ 52.100,00 em receita bruta.",
+      "Status geral de saúde corporativa classificado como 'BOM' com score de 0.94."
+    ],
+    "summary": "Goiânia roda uma operação saudável, previsível e lucrativa. Cumpre as metas financeiras com folga e possui processos de atendimento robustos, necessitando apenas de ajustes finos de precificação e mix de produtos para buscar o topo da rede."
+  },
+  {
+    "unitId": "unt_01_jardins",
+    "critical": [],
+    "warnings": [],
+    "opportunities": [
+      "Expansão física ou aumento de turnos operacionais, visto que a ocupação de salas já atinge picos de até 95% às 17:00."
+    ],
+    "highlights": [
+      "Performance financeira excepcional: R$ 68.200,00 em faturamento (104.9% da meta) e R$ 18.450,00 em caixa livre.",
+      "Liderança absoluta em eficiência tecnológica: 69.2% de taxa de automação via IA, economizando 152.5 horas de trabalho humano.",
+      "A profissional Beatriz Souza conquistou o 1º lugar da unidade com R$ 32.660,00 faturados e NPS impecável de 94.5.",
+      "Campanha 'Inverno VIP' gerou ROI massivo de 6.55."
+    ],
+    "summary": "Unidade modelo da rede. Jardins atua consistentemente no quadrante de alta eficiência, combinando marketing digital cirúrgico, uso massivo de inteligência artificial e alta produtividade da equipe técnica."
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "network": 44675.00,
+    "regional": 41600.00,
+    "top10": 68200.00,
+    "comparison": [
+      { "metric": "revenue", "unitValue": 68200.00, "networkValue": 44675.00, "regionalValue": 41600.00, "top10Value": 68200.00 }
+    ]
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "network": 44675.00,
+    "regional": 41600.00,
+    "top10": 68200.00,
+    "comparison": [
+      { "metric": "revenue", "unitValue": 15000.00, "networkValue": 44675.00, "regionalValue": 41600.00, "top10Value": 68200.00 }
+    ]
+  }
+]

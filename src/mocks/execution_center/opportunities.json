@@ -1,0 +1,64 @@
+{
+  "title": "Oportunidades para Ação (IA)",
+  "subtitle": "Playbooks sugeridos automaticamente pela IA",
+  "items": [
+    {
+      "id": 1,
+      "title": "Campanha de renovação",
+      "description": "147 pacientes com pacotes próximos do vencimento",
+      "potential": "R$ 54.300",
+      "icon": "RefreshCcw",
+      "color": "cyan",
+      "action": "Executar"
+    },
+    {
+      "id": 2,
+      "title": "Reduzir No Show em 5%",
+      "description": "Aplicar confirmação inteligente em 6 unidades",
+      "potential": "R$ 18.200",
+      "icon": "TrendingUp",
+      "color": "cyan",
+      "action": "Executar"
+    }
+  ],
+  "items2": [
+    {
+      "id": 3,
+      "title": "Aumentar ocupação",
+      "description": "Criar campanha automática para horários ociosos",
+      "potential": "R$ 22.600",
+      "icon": "CalendarDays",
+      "color": "cyan",
+      "action": "Executar"
+    },
+    {
+      "id": 1,
+      "title": "Renovação de pacotes",
+      "description": "147 pacientes com pacotes próximos do vencimento",
+      "potential": "R$ 54.300",
+      "icon": "RefreshCcw",
+      "color": "cyan",
+      "action": "Executar"
+    }
+  ],
+    "items3": [
+    {
+      "id": 1,
+      "title": "Campanha de renovação",
+      "description": "147 pacientes com pacotes próximos do vencimento",
+      "potential": "R$ 54.300",
+      "icon": "RefreshCcw",
+      "color": "cyan",
+      "action": "Executar"
+    },
+    {
+      "id": 1,
+      "title": "Campanha de renovação",
+      "description": "147 pacientes com pacotes próximos do vencimento",
+      "potential": "R$ 54.300",
+      "icon": "RefreshCcw",
+      "color": "cyan",
+      "action": "Executar"
+    }
+    ]
+}

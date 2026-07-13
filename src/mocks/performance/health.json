@@ -1,0 +1,54 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "status": "EXCELLENT",
+    "score": 0.96,
+    "categories": {
+      "Finance": 0.98,
+      "Patients": 0.95,
+      "Marketing": 0.92,
+      "Agenda": 0.97,
+      "Equipe": 0.96,
+      "IA": 0.98
+    }
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "status": "GOOD",
+    "score": 0.94,
+    "categories": {
+      "Finance": 0.92,
+      "Patients": 0.95,
+      "Marketing": 0.90,
+      "Agenda": 0.96,
+      "Equipe": 0.93,
+      "IA": 0.91
+    }
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "status": "REGULAR",
+    "score": 0.90,
+    "categories": {
+      "Finance": 0.88,
+      "Patients": 0.91,
+      "Marketing": 0.86,
+      "Agenda": 0.89,
+      "Equipe": 0.92,
+      "IA": 0.88
+    }
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "status": "CRITICAL",
+    "score": 0.82,
+    "categories": {
+      "Finance": 0.75,
+      "Patients": 0.84,
+      "Marketing": 0.78,
+      "Agenda": 0.80,
+      "Equipe": 0.85,
+      "IA": 0.72
+    }
+  }
+]

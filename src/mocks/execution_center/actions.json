@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Ativação Emergencial de IA - Campinas",
+    "description": "Retomar a automação de 'Boas-vindas e Atendimento Inicial' (aut_004) para triagem rápida e direcionar os 108 leads parados no funil.",
+    "status": "RECOMMENDED",
+    "estimatedRevenue": 8500.00,
+    "patients": 108,
+    "button": "Ativar Automação",
+    "automation": "aut_004"
+  },
+  {
+    "title": "Cobrança de Royalties Atrasados - Campinas & Curitiba",
+    "description": "Disparar notificação financeira com link de pagamento para os saldos de R$ 900,00 (Campinas) e R$ 604,00 (Curitiba).",
+    "status": "READY",
+    "estimatedRevenue": 1504.00,
+    "patients": 0,
+    "button": "Notificar Franqueados",
+    "automation": "sys_billing_notify"
+  },
+  {
+    "title": "Clonar Régua de Cross-Sell - Jardins para Curitiba",
+    "description": "Copiar a estrutura de sucesso da automação aut_002 (Jardins) para elevar a taxa de cross-sell de Curitiba de 18% para 28%.",
+    "status": "RECOMMENDED",
+    "estimatedRevenue": 4200.00,
+    "patients": 143,
+    "button": "Replicar Configuração",
+    "automation": "aut_002"
+  },
+  {
+    "title": "Campanha Preventiva de No-Show - Redução de Danos",
+    "description": "Disparar confirmações ativas via IA 4h antes para os agendamentos de Campinas (onde o No-Show está em críticos 9%).",
+    "status": "RUNNING",
+    "estimatedRevenue": 2100.00,
+    "patients": 42,
+    "button": "Ver Painel",
+    "automation": "sys_preventive_noshow"
+  },
+  {
+    "title": "Reativação de Inativos (60d) - Goiânia",
+    "description": "Disparar oferta exclusiva do Combo Cílios + Sobrancelha para a base de clientes que não retornam há mais de dois meses.",
+    "status": "COMPLETED",
+    "estimatedRevenue": 14200.00,
+    "patients": 845,
+    "button": "Ver Relatório",
+    "automation": "aut_003"
+  }
+]

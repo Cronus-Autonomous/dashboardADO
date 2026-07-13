@@ -1,0 +1,86 @@
+{
+  "layout": "grid-dynamic",
+  "filters": {
+    "periods": [
+      "Hoje",
+      "Ontem",
+      "Últimos 7 dias",
+      "Últimos 30 dias",
+      "Mês Atual (Jun/2026)",
+      "Mês Anterior",
+      "Últimos 90 dias",
+      "Este Trimestre",
+      "Ano Atual"
+    ]
+  },
+  "permissions": ["view_unit_metrics", "execute_local_automations", "view_financial_statements"],
+  "modules": [
+    {
+      "id": "mod_fin_overview",
+      "component": "FinancialSummaryCard",
+      "dataSource": "FINANCE/overview.json",
+      "w": 12, "h": 4
+    },
+    {
+      "id": "mod_comm_funnel",
+      "component": "SalesFunnelChart",
+      "dataSource": "COMMERCIAL/funnel.json",
+      "w": 6, "h": 6
+    },
+    {
+      "id": "mod_apt_occupancy",
+      "component": "HourlyOccupancyHeatmap",
+      "dataSource": "APPOINTMENTS/occupancy.json",
+      "w": 6, "h": 6
+    },
+    {
+      "id": "mod_ai_status",
+      "component": "AIPerformancePanel",
+      "dataSource": "AI/overview.json",
+      "w": 12, "h": 5
+    },
+    {
+      "id": "mod_exe_actions",
+      "component": "ActionCenterList",
+      "dataSource": "EXECUTION CENTER/actions.json",
+      "w": 12, "h": 6
+    }
+  ],
+  "notifications": {
+    "unread": 8,
+    "items": [
+      {
+        "id": 1,
+        "type": "critical",
+        "title": "3º dia agenda abaixo de 60% de ocupação",
+        "description": "Potencial perda de R$ 12.400 esta semana.",
+        "time": "2 min",
+        "icon": "alert"
+      },
+      {
+        "id": 2,
+        "type": "warning",
+        "title": "212 pacientes com pacote vencendo",
+        "description": "Campanha de renovação recomendada.",
+        "time": "12 min",
+        "icon": "package"
+      },
+      {
+        "id": 3,
+        "type": "success",
+        "title": "IA recuperou R$ 18.240 hoje",
+        "description": "Follow-ups automáticos concluídos.",
+        "time": "18 min",
+        "icon": "sparkles"
+      },
+      {
+        "id": 4,
+        "type": "info",
+        "title": "Campinas Cambuí assumiu o 1º lugar",
+        "description": "CPS 98 • NPS 97",
+        "time": "1 h",
+        "icon": "trophy"
+      }
+    ]
+  }
+}

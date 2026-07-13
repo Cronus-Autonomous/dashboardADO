@@ -1,0 +1,54 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "active": 257,
+    "inactive": 34,
+    "new": 68,
+    "base": 189,
+    "retention": 0.84,
+    "churn": 0.03,
+    "LTV": 1580.00,
+    "credits": 4200.00,
+    "packages": 94,
+    "inadimplentes": 5
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "active": 217,
+    "inactive": 41,
+    "new": 52,
+    "base": 165,
+    "retention": 0.79,
+    "churn": 0.05,
+    "LTV": 1340.00,
+    "credits": 2850.00,
+    "packages": 72,
+    "inadimplentes": 8
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "active": 182,
+    "inactive": 38,
+    "new": 39,
+    "base": 143,
+    "retention": 0.76,
+    "churn": 0.06,
+    "LTV": 1220.00,
+    "credits": 1900.00,
+    "packages": 55,
+    "inadimplentes": 11
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "active": 68,
+    "inactive": 12,
+    "new": 18,
+    "base": 50,
+    "retention": 0.62,
+    "churn": 0.11,
+    "LTV": 890.00,
+    "credits": 600.00,
+    "packages": 15,
+    "inadimplentes": 4
+  }
+]

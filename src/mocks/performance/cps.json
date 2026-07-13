@@ -1,0 +1,66 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "current": 68.50,
+    "previous": 72.10,
+    "variation": -0.0499,
+    "classification": "EXCELLENT",
+    "breakdown": [
+      { "category": "Finance", "score": 85.0 },
+      { "category": "Conversion", "score": 78.0 },
+      { "category": "NPS", "score": 92.0 },
+      { "category": "Agenda", "score": 80.0 },
+      { "category": "IA", "score": 95.0 },
+      { "category": "Retenção", "score": 88.0 },
+      { "category": "Produtividade", "score": 84.0 }
+    ]
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "current": 74.10,
+    "previous": 73.50,
+    "variation": 0.0081,
+    "classification": "GOOD",
+    "breakdown": [
+      { "category": "Finance", "score": 72.0 },
+      { "category": "Conversion", "score": 70.0 },
+      { "category": "NPS", "score": 88.5 },
+      { "category": "Agenda", "score": 75.0 },
+      { "category": "IA", "score": 60.0 },
+      { "category": "Retenção", "score": 81.0 },
+      { "category": "Produtividade", "score": 78.0 }
+    ]
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "current": 79.20,
+    "previous": 84.00,
+    "variation": -0.0571,
+    "classification": "REGULAR",
+    "breakdown": [
+      { "category": "Finance", "score": 65.0 },
+      { "category": "Conversion", "score": 68.0 },
+      { "category": "NPS", "score": 85.0 },
+      { "category": "Agenda", "score": 64.0 },
+      { "category": "IA", "score": 55.0 },
+      { "category": "Retenção", "score": 72.0 },
+      { "category": "Produtividade", "score": 70.0 }
+    ]
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "current": 85.00,
+    "previous": 92.30,
+    "variation": -0.0790,
+    "classification": "CRITICAL",
+    "breakdown": [
+      { "category": "Finance", "score": 40.0 },
+      { "category": "Conversion", "score": 52.0 },
+      { "category": "NPS", "score": 80.0 },
+      { "category": "Agenda", "score": 45.0 },
+      { "category": "IA", "score": 30.0 },
+      { "category": "Retenção", "score": 58.0 },
+      { "category": "Produtividade", "score": 50.0 }
+    ]
+  }
+]

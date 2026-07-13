@@ -1,0 +1,51 @@
+{
+  "regions": [
+    { "id": "reg_se", "name": "Sudeste" },
+    { "id": "reg_co", "name": "Centro-Oeste" },
+    { "id": "reg_su", "name": "Sul" }
+  ],
+  "states": [
+    { "id": "st_sp", "name": "São Paulo", "regionId": "reg_se" },
+    { "id": "st_go", "name": "Goiás", "regionId": "reg_co" },
+    { "id": "st_pr", "name": "Paraná", "regionId": "reg_su" }
+  ],
+  "cities": [
+    { "id": "cit_sp", "name": "São Paulo", "stateId": "st_sp" },
+    { "id": "cit_cp", "name": "Campinas", "stateId": "st_sp" },
+    { "id": "cit_go", "name": "Goiânia", "stateId": "st_go" },
+    { "id": "cit_ct", "name": "Curitiba", "stateId": "st_pr" }
+  ],
+  "franchises": [
+    { "id": "unt_01_jardins", "name": "Além do Olhar - Jardins", "cityId": "cit_sp" },
+    { "id": "unt_02_goiania", "name": "Além do Olhar - Goiânia", "cityId": "cit_go" },
+    { "id": "unt_03_curitiba", "name": "Além do Olhar - Curitiba", "cityId": "cit_ct" },
+    { "id": "unt_04_campinas", "name": "Além do Olhar - Campinas", "cityId": "cit_cp" }
+  ],
+  "consultants": [
+    { "id": "cst_01", "name": "Marcelo Vieira", "assignedUnits": ["unt_01_jardins", "unt_04_campinas"] },
+    { "id": "cst_02", "name": "Mariana Costa", "assignedUnits": ["unt_02_goiania", "unt_03_curitiba"] }
+  ],
+  "professionals": [
+    { "id": "prf_sp_01", "name": "Beatriz Souza", "unitId": "unt_01_jardins" },
+    { "id": "prf_sp_02", "name": "Amanda Rocha", "unitId": "unt_01_jardins" },
+    { "id": "prf_go_01", "name": "Kamila Ribeiro", "unitId": "unt_02_goiania" },
+    { "id": "prf_go_03", "name": "Juliana Lima", "unitId": "unt_02_goiania" },
+    { "id": "prf_pr_02", "name": "Fernanda Alencar", "unitId": "unt_03_curitiba" },
+    { "id": "prf_sp_09", "name": "Carolina Mendes", "unitId": "unt_04_campinas" }
+  ],
+  "specialties": [
+    { "id": "spc_lashes", "name": "Extensão de Cílios" },
+    { "id": "spc_brows", "name": "Design de Sobrancelhas" },
+    { "id": "spc_pmu", "name": "Micropigmentação" },
+    { "id": "spc_facial", "name": "Estética Facial" }
+  ],
+  "periods": [
+    { "id": "per_today", "label": "Hoje", "days": 0 },
+    { "id": "per_last_7", "label": "Últimos 7 dias", "days": 7 },
+    { "id": "per_current", "label": "Mês Atual", "days": 30 },
+    { "id": "per_cur_month", "label": "Mês Atual", "days": 30 },
+    { "id": "per_last_90", "label": "Este Trimestre", "days": 90 },
+    { "id": "per_last_year", "label": "Ano Atual", "days": 365 },
+    { "id": "per_custom", "label": "Período Personalizado", "days": null }
+  ]
+}

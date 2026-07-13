@@ -1,0 +1,38 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "month": "2026-06",
+    "revenueGoal": 65000.00,
+    "occupancyGoal": 0.75,
+    "ticketGoal": 250.00,
+    "NPSGoal": 90.0,
+    "CPSGoal": 70.00
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "month": "2026-06",
+    "revenueGoal": 50000.00,
+    "occupancyGoal": 0.70,
+    "ticketGoal": 235.00,
+    "NPSGoal": 85.0,
+    "CPSGoal": 75.00
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "month": "2026-06",
+    "revenueGoal": 45000.00,
+    "occupancyGoal": 0.65,
+    "ticketGoal": 230.00,
+    "NPSGoal": 85.0,
+    "CPSGoal": 80.00
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "month": "2026-06",
+    "revenueGoal": 40000.00,
+    "occupancyGoal": 0.60,
+    "ticketGoal": 225.00,
+    "NPSGoal": 80.0,
+    "CPSGoal": 85.00
+  }
+]

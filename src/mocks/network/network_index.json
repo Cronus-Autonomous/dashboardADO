@@ -1,0 +1,38 @@
+{
+  "title": "Índices Estratégicos da Rede",
+  "items": [
+    {
+      "id": "cps",
+      "title": "PERFORMANCE SCORE",
+      "value": 86,
+      "suffix": "",
+      "status": "Excelente",
+      "delta": "4",
+      "deltaLabel": "vs. mês anterior",
+      "color": "cyan",
+      "progress": 86
+    },
+    {
+      "id": "autonomous",
+      "title": "AUTONOMOUS INDEX",
+      "value": 71,
+      "suffix": "%",
+      "status": "Alta",
+      "delta": "6",
+      "deltaLabel": "vs. mês anterior",
+      "color": "cyan",
+      "progress": 71
+    },
+    {
+      "id": "health",
+      "title": "OPERATIONAL HEALTH",
+      "value": 82,
+      "suffix": "%",
+      "status": "Saudável",
+      "delta": "3",
+      "deltaLabel": "vs. mês anterior",
+      "color": "cyan",
+      "progress": 82
+    }
+  ]
+}

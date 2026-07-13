@@ -1,0 +1,50 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "leads": 450,
+    "CAC": 35.20,
+    "ROI": 4.8,
+    "MetaAds": 0.55,
+    "GoogleAds": 0.25,
+    "Organic": 0.12,
+    "Referral": 0.08,
+    "Campaigns": 8,
+    "Revenue": 68200.00
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "leads": 380,
+    "CAC": 42.10,
+    "ROI": 3.9,
+    "MetaAds": 0.60,
+    "GoogleAds": 0.20,
+    "Organic": 0.10,
+    "Referral": 0.10,
+    "Campaigns": 6,
+    "Revenue": 52100.00
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "leads": 290,
+    "CAC": 48.50,
+    "ROI": 3.2,
+    "MetaAds": 0.50,
+    "GoogleAds": 0.30,
+    "Organic": 0.08,
+    "Referral": 0.12,
+    "Campaigns": 5,
+    "Revenue": 43400.00
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "leads": 180,
+    "CAC": 65.00,
+    "ROI": 1.5,
+    "MetaAds": 0.65,
+    "GoogleAds": 0.22,
+    "Organic": 0.05,
+    "Referral": 0.08,
+    "Campaigns": 3,
+    "Revenue": 15000.00
+  }
+]

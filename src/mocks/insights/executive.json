@@ -1,0 +1,17 @@
+{
+  "updatedAt": "2026-06-27T14:15:00Z",
+  "networkOverview": {
+    "totalGrossRevenue": 178700.00,
+    "networkAverageRevenue": 44675.00,
+    "top10AverageRevenue": 68200.00,
+    "activePatientsNetwork": 710,
+    "averageNPSNetwork": 86.75
+  },
+  "dailySnapshot": {
+    "todayAppointments": 116,
+    "todayEstimatedRevenue": 8530.00,
+    "aiAutomationSuccessRate": 0.597,
+    "criticalUnitsCount": 1,
+    "pendingRoyaltiesTotal": 1504.00
+  }
+}

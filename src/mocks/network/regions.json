@@ -1,0 +1,41 @@
+[
+  {
+    "regionId": "reg_sudeste",
+    "name": "Sudeste",
+    "units": 22,
+    "revenue": 715000.00,
+    "growth": 0.125,
+    "ticket": 252.00,
+    "occupancy": 0.71,
+    "NPS": 87.2,
+    "CPS": 72.10,
+    "Autonomous": 0.13,
+    "Health": 0.93
+  },
+  {
+    "regionId": "reg_centro_oeste",
+    "name": "Centro-Oeste",
+    "units": 12,
+    "revenue": 385000.00,
+    "growth": 0.082,
+    "ticket": 241.50,
+    "occupancy": 0.67,
+    "NPS": 86.8,
+    "CPS": 76.40,
+    "Autonomous": 0.17,
+    "Health": 0.91
+  },
+  {
+    "regionId": "reg_sul",
+    "name": "Sul",
+    "units": 6,
+    "revenue": 180000.00,
+    "growth": 0.045,
+    "ticket": 236.00,
+    "occupancy": 0.62,
+    "NPS": 84.1,
+    "CPS": 81.00,
+    "Autonomous": 0.16,
+    "Health": 0.89
+  }
+]

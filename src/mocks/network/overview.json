@@ -1,0 +1,21 @@
+{
+  "networkName": "Além do Olhar",
+  "totalUnits": 40,
+  "activeUnits": 38,
+  "cities": 22,
+  "states": 8,
+  "regions": [
+    "Sudeste",
+    "Centro-Oeste",
+    "Sul"
+  ],
+  "totalRevenue": 1280000.00,
+  "goal": 1500000.00,
+  "averageTicket": 245.00,
+  "averageNPS": 86.5,
+  "averageOccupancy": 0.68,
+  "averageCPS": 75.30,
+  "averageAutonomous": 0.15,
+  "averageOperationalHealth": 0.92,
+  "generatedAt": "2026-06-27T13:00:00Z"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "history": [
+      { "month": "2026-02", "totalConversations": 1450, "aiHandled": 980, "revenue": 19500.00 },
+      { "month": "2026-03", "totalConversations": 1600, "aiHandled": 1090, "revenue": 22400.00 },
+      { "month": "2026-04", "totalConversations": 1680, "aiHandled": 1140, "revenue": 24100.00 },
+      { "month": "2026-05", "totalConversations": 1750, "aiHandled": 1200, "revenue": 26800.00 },
+      { "month": "2026-06", "totalConversations": 1840, "aiHandled": 1273, "revenue": 28450.00 }
+    ]
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "history": [
+      { "month": "2026-02", "totalConversations": 1100, "aiHandled": 610, "revenue": 13200.00 },
+      { "month": "2026-03", "totalConversations": 1250, "aiHandled": 700, "revenue": 15400.00 },
+      { "month": "2026-04", "totalConversations": 1310, "aiHandled": 740, "revenue": 16800.00 },
+      { "month": "2026-05", "totalConversations": 1380, "aiHandled": 790, "revenue": 17900.00 },
+      { "month": "2026-06", "totalConversations": 1420, "aiHandled": 815, "revenue": 18900.00 }
+    ]
+  }
+]

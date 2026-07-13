@@ -1,0 +1,30 @@
+{
+  "title": "Execução em Tempo Real (IA)",
+  "status": {
+    "label": "Online",
+    "color": "green"
+  },
+  "metrics": [
+    {
+      "id": "revenue",
+      "title": "RECEITA RECUPERADA HOJE",
+      "value": "R$ 18.450",
+      "subtitle": "+37% vs. ontem",
+      "color": "green"
+    },
+    {
+      "id": "hours",
+      "title": "HORAS HUMANAS SALVAS",
+      "value": "47 h",
+      "subtitle": "+12 h vs. ontem",
+      "color": "cyan"
+    },
+    {
+      "id": "appointments",
+      "title": "AGENDAMENTOS IA HOJE",
+      "value": "198",
+      "subtitle": "+28 vs. ontem",
+      "color": "yellow"
+    }
+  ]
+}

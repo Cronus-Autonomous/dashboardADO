@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "title": "Dashboard",
+      "label": "Visão Geral",
+      "icon": "LayoutDashboard",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "Unidades",
+      "icon": "Building2",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "Performance",
+      "icon": "TrendingUp",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "Central de Inteligência",
+      "icon": "Brain",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "IA e Automações",
+      "icon": "Sparkles",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "Ranking",
+      "icon": "ChartColumnStacked",
+      "route": "/"
+    },
+    {
+      "title": "Dashboard",
+      "label": "Forecast",
+      "icon": "TrendingUpDown",
+      "route": "/"
+    }
+  ]
+}

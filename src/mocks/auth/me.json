@@ -1,0 +1,34 @@
+[
+  {
+  "id": "usr_772194",
+  "name": "Patrícia Domanico",
+  "email": "patricia.domanico@alemdoolhar.com.br",
+  "role": "CEO",
+  "permissions": [
+    "view:dashboard:network",
+    "view:metrics:global",
+    "export:financials",
+    "manage:units"
+  ],
+  "networkId": "net_alem_do_olhar_01",
+  "unitId": null,
+  "photo": "https://6a405018f4f12d1dab64899a.imgix.net/sandbox/1723742710170.jpg",
+  "logo": "https://6a405018f4f12d1dab64899a.imgix.net/alem-do-olhar/logo.jpg"
+},
+{
+  "id": "usr_772194",
+  "name": "Alisson Morais",
+  "email": "alisson.morais@alemdoolhar.com.br",
+  "role": "Administrador",
+  "permissions": [
+    "view:dashboard:network",
+    "view:metrics:global",
+    "export:financials",
+    "manage:units"
+  ],
+  "networkId": "net_alem_do_olhar_01",
+  "unitId": null,
+  "photo": "https://6a405018f4f12d1dab64899a.imgix.net/sandbox/2026-03-11_17-08.png",
+  "logo": "https://6a405018f4f12d1dab64899a.imgix.net/alem-do-olhar/logo.jpg"
+}
+]

@@ -1,0 +1,25 @@
+{
+  "franchisor": {
+    "allowedWidgets": [
+      { "id": "wdg_network_revenue", "title": "Faturamento Consolidado da Rede", "type": "KPI-Card", "defaultVisible": true },
+      { "id": "wdg_command_center", "title": "Sala de Comando de Crise", "type": "Hero-Console", "defaultVisible": true },
+      { "id": "wdg_royalties_ledger", "title": "Acompanhamento Financeiro de Franquias", "type": "Table", "defaultVisible": true },
+      { "id": "wdg_predictive_forecast", "title": "Projeção de Caixa por IA", "type": "LineChart", "defaultVisible": false }
+    ]
+  },
+  "franchisee": {
+    "allowedWidgets": [
+      { "id": "wdg_unit_cashflow", "title": "Fluxo de Caixa Operacional", "type": "AreaChart", "defaultVisible": true },
+      { "id": "wdg_local_funnel", "title": "Funil de Vendas Local", "type": "FunnelChart", "defaultVisible": true },
+      { "id": "wdg_pro_ranking", "title": "Produtividade Profissional", "type": "Leaderboard", "defaultVisible": true },
+      { "id": "wdg_ai_hours_saved", "title": "Horas Salvas pela Assistente IA", "type": "RadialGauge", "defaultVisible": true }
+    ]
+  },
+  "consultant": {
+    "allowedWidgets": [
+      { "id": "wdg_critical_units_alerts", "title": "Unidades sob Alerta Crítico", "type": "List-Cards", "defaultVisible": true },
+      { "id": "wdg_benchmark_matrix", "title": "Matriz de Comparativo Regional", "type": "Matrix-Table", "defaultVisible": true },
+      { "id": "wdg_reco_center", "title": "Central de Recomendações de Negócio", "type": "ActionList", "defaultVisible": true }
+    ]
+  }
+}

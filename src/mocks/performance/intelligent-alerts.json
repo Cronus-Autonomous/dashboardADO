@@ -1,0 +1,22 @@
+{
+  "title": "Alertas Inteligentes",
+  "subtitle": "Insights gerados automaticamente pela IA",
+  "alerts": [
+    {
+      "id": 1,
+      "type": "critical",
+      "title": "Perda estimada de R$ 182.000 em No Shows",
+      "description": "17 unidades acima de 10% de No Show",
+      "badge": "CRÍTICO",
+      "icon": "TrendingDown"
+    },
+    {
+      "id": 2,
+      "type": "warning",
+      "title": "6 unidades com ocupação abaixo de 60%",
+      "description": "Necessário ação de marketing local",
+      "badge": "ATENÇÃO",
+      "icon": "Target"
+    }
+  ]
+}

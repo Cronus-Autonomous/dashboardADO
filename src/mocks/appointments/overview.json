@@ -1,0 +1,50 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "appointments": 816,
+    "occupancy": 0.78,
+    "busyHours": 898.5,
+    "availableHours": 1152.0,
+    "rooms": 6,
+    "roomOccupancy": 0.75,
+    "NoShow": 0.04,
+    "Cancelations": 0.06,
+    "AverageDuration": 66
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "appointments": 620,
+    "occupancy": 0.71,
+    "busyHours": 681.6,
+    "availableHours": 960.0,
+    "rooms": 5,
+    "roomOccupancy": 0.68,
+    "NoShow": 0.06,
+    "Cancelations": 0.08,
+    "AverageDuration": 66
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "appointments": 485,
+    "occupancy": 0.65,
+    "busyHours": 499.2,
+    "availableHours": 768.0,
+    "rooms": 4,
+    "roomOccupancy": 0.62,
+    "NoShow": 0.05,
+    "Cancelations": 0.09,
+    "AverageDuration": 61
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "appointments": 280,
+    "occupancy": 0.40,
+    "busyHours": 307.2,
+    "availableHours": 768.0,
+    "rooms": 4,
+    "roomOccupancy": 0.38,
+    "NoShow": 0.09,
+    "Cancelations": 0.14,
+    "AverageDuration": 65
+  }
+]

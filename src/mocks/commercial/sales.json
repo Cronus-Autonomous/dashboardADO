@@ -1,0 +1,80 @@
+[
+  {
+    "id": "sl_001",
+    "date": "2026-06-27T10:30:00Z",
+    "unitId": "unt_01_jardins",
+    "professionalId": "prf_sp_01",
+    "patientId": "pat_sp_991",
+    "service": "Extensão de Cílios Volume Russo",
+    "category": "Procedures",
+    "value": 280.00,
+    "channel": "WhatsApp",
+    "origin": "Instagram Ads",
+    "soldBy": "usr_4401"
+  },
+  {
+    "id": "sl_002",
+    "date": "2026-06-27T11:15:00Z",
+    "unitId": "unt_01_jardins",
+    "professionalId": "prf_sp_02",
+    "patientId": "pat_sp_342",
+    "service": "Combo Cílios + Design de Sobrancelha",
+    "category": "Packages",
+    "value": 390.00,
+    "channel": "Balcão",
+    "origin": "Indicação",
+    "soldBy": "usr_4401"
+  },
+  {
+    "id": "sl_003",
+    "date": "2026-06-27T09:00:00Z",
+    "unitId": "unt_02_goiania",
+    "professionalId": "prf_go_01",
+    "patientId": "pat_go_511",
+    "service": "Design de Sobrancelha com Henna",
+    "category": "Procedures",
+    "value": 95.00,
+    "channel": "Aplicativo",
+    "origin": "Busca Orgânica",
+    "soldBy": "usr_4402"
+  },
+  {
+    "id": "sl_004",
+    "date": "2026-06-27T14:20:00Z",
+    "unitId": "unt_02_goiania",
+    "professionalId": "prf_go_03",
+    "patientId": "pat_go_882",
+    "service": "Sérum Hidratante Pós-Procedimento",
+    "category": "Products",
+    "value": 145.00,
+    "channel": "Balcão",
+    "origin": "Cross-Sell",
+    "soldBy": "usr_4402"
+  },
+  {
+    "id": "sl_005",
+    "date": "2026-06-27T13:40:00Z",
+    "unitId": "unt_03_curitiba",
+    "professionalId": "prf_pr_02",
+    "patientId": "pat_pr_104",
+    "service": "Micropigmentação Labial",
+    "category": "Procedures",
+    "value": 650.00,
+    "channel": "WhatsApp",
+    "origin": "Google Maps",
+    "soldBy": "usr_4403"
+  },
+  {
+    "id": "sl_006",
+    "date": "2026-06-27T10:00:00Z",
+    "unitId": "unt_04_campinas",
+    "professionalId": "prf_sp_09",
+    "patientId": "pat_cp_022",
+    "service": "Design de Sobrancelha Simples",
+    "category": "Procedures",
+    "value": 75.00,
+    "channel": "WhatsApp",
+    "origin": "Panfletagem Local",
+    "soldBy": "usr_4404"
+  }
+]

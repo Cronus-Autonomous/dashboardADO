@@ -1,0 +1,62 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "newPatients": 68,
+    "basePatients": 189,
+    "budgets": 150,
+    "approvedBudgets": 63,
+    "sales": 257,
+    "packages": 94,
+    "homeCare": 42,
+    "products": 58,
+    "procedures": 105,
+    "crossSell": 0.28,
+    "upSell": 0.19,
+    "followUps": 340
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "newPatients": 52,
+    "basePatients": 165,
+    "budgets": 124,
+    "approvedBudgets": 47,
+    "sales": 217,
+    "packages": 72,
+    "homeCare": 31,
+    "products": 44,
+    "procedures": 91,
+    "crossSell": 0.22,
+    "upSell": 0.14,
+    "followUps": 285
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "newPatients": 39,
+    "basePatients": 143,
+    "budgets": 102,
+    "approvedBudgets": 36,
+    "sales": 182,
+    "packages": 55,
+    "homeCare": 22,
+    "products": 38,
+    "procedures": 79,
+    "crossSell": 0.18,
+    "upSell": 0.11,
+    "followUps": 210
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "newPatients": 18,
+    "basePatients": 50,
+    "budgets": 60,
+    "approvedBudgets": 17,
+    "sales": 68,
+    "packages": 15,
+    "homeCare": 8,
+    "products": 12,
+    "procedures": 33,
+    "crossSell": 0.08,
+    "upSell": 0.05,
+    "followUps": 115
+  }
+]

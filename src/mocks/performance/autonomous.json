@@ -1,0 +1,62 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "current": 0.12,
+    "classification": "EFFICIENT",
+    "modules": {
+      "Attendance": 0.85,
+      "Scheduling": 0.92,
+      "Follow-up": 0.78,
+      "Recovery": 0.64,
+      "Marketing": 0.70,
+      "CrossSell": 0.55,
+      "Collections": 0.40,
+      "AutomationRate": 0.692
+    }
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "current": 0.18,
+    "classification": "INTERMEDIATE",
+    "modules": {
+      "Attendance": 0.72,
+      "Scheduling": 0.80,
+      "Follow-up": 0.65,
+      "Recovery": 0.50,
+      "Marketing": 0.58,
+      "CrossSell": 0.42,
+      "Collections": 0.35,
+      "AutomationRate": 0.574
+    }
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "current": 0.14,
+    "classification": "INTERMEDIATE",
+    "modules": {
+      "Attendance": 0.68,
+      "Scheduling": 0.75,
+      "Follow-up": 0.60,
+      "Recovery": 0.48,
+      "Marketing": 0.50,
+      "CrossSell": 0.38,
+      "Collections": 0.30,
+      "AutomationRate": 0.527
+    }
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "current": 0.20,
+    "classification": "INITIAL",
+    "modules": {
+      "Attendance": 0.45,
+      "Scheduling": 0.50,
+      "Follow-up": 0.35,
+      "Recovery": 0.22,
+      "Marketing": 0.30,
+      "CrossSell": 0.15,
+      "Collections": 0.10,
+      "AutomationRate": 0.296
+    }
+  }
+]

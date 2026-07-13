@@ -1,0 +1,20 @@
+{
+  "topRevenueProfessionals": [
+    { "position": 1, "professionalId": "prf_sp_01", "name": "Beatriz Souza", "unit": "Jardins", "value": 32660.00 },
+    { "position": 2, "professionalId": "prf_go_01", "name": "Kamila Ribeiro", "unit": "Goiânia", "value": 24150.00 },
+    { "position": 3, "professionalId": "prf_sp_02", "name": "Amanda Rocha", "unit": "Jardins", "value": 21560.00 }
+  ],
+  "topCPS": [
+    { "position": 1, "professionalId": "prf_sp_09", "name": "Carolina Mendes", "unit": "Campinas", "score": 83.90, "label": "Alto Custo por Sessão" },
+    { "position": 2, "professionalId": "prf_pr_02", "name": "Fernanda Alencar", "unit": "Curitiba", "score": 77.40, "label": "Custo Estável" }
+  ],
+  "topAIEfficiencyUnits": [
+    { "position": 1, "unitId": "unt_01_jardins", "automationRate": 0.692, "savedHours": 152.5 },
+    { "position": 2, "unitId": "unt_02_goiania", "automationRate": 0.574, "savedHours": 110.0 },
+    { "position": 3, "unitId": "unt_03_curitiba", "automationRate": 0.527, "savedHours": 82.5 }
+  ],
+  "highestNPS": [
+    { "position": 1, "professionalId": "prf_sp_01", "name": "Beatriz Souza", "nps": 94.5 },
+    { "position": 2, "professionalId": "prf_sp_02", "name": "Amanda Rocha", "nps": 91.0 }
+  ]
+}

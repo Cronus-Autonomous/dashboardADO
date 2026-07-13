@@ -1,0 +1,22 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "history": [
+      { "month": "2026-02", "active": 235, "retentionRate": 0.81, "churnRate": 0.04 },
+      { "month": "2026-03", "active": 242, "retentionRate": 0.82, "churnRate": 0.03 },
+      { "month": "2026-04", "active": 248, "retentionRate": 0.83, "churnRate": 0.03 },
+      { "month": "2026-05", "active": 251, "retentionRate": 0.83, "churnRate": 0.04 },
+      { "month": "2026-06", "active": 257, "retentionRate": 0.84, "churnRate": 0.03 }
+    ]
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "history": [
+      { "month": "2026-02", "active": 204, "retentionRate": 0.77, "churnRate": 0.05 },
+      { "month": "2026-03", "active": 210, "retentionRate": 0.78, "churnRate": 0.05 },
+      { "month": "2026-04", "active": 212, "retentionRate": 0.78, "churnRate": 0.06 },
+      { "month": "2026-05", "active": 214, "retentionRate": 0.79, "churnRate": 0.05 },
+      { "month": "2026-06", "active": 217, "retentionRate": 0.79, "churnRate": 0.05 }
+    ]
+  }
+]

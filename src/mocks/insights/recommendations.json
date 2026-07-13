@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Aporte de Capital e Plano de Sobrevivência - Campinas",
+    "description": "Injetar capital emergencial para cobrir o fluxo de caixa negativo de R$ -2.500,00 e renegociar o custo fixo do aluguel da Unidade Cambuí (atualmente em R$ 5.000,00, consumindo 33% do faturamento bruto).",
+    "impact": "CRITICAL",
+    "estimatedRevenue": 0.00,
+    "priority": "HIGH",
+    "action": "Reunião emergencial com o franqueado de Campinas nas próximas 24 horas para auditoria de custos fixos e estruturação de mútuo financeiro."
+  },
+  {
+    "title": "Ativação de IA e Força-Tarefa de Vendas - Campinas",
+    "description": "Retomar imediatamente o módulo de automação de IA 'Boas-vindas' (hoje pausado) e direcionar os 108 leads qualificados parados no funil para avaliações presenciais estipulando descontos agressivos de conversão.",
+    "impact": "HIGH",
+    "estimatedRevenue": 8500.00,
+    "priority": "HIGH",
+    "action": "Alterar o status da automação `aut_004` para ACTIVE no painel e treinar a recepção para conversão imediata pós-triagem de IA."
+  },
+  {
+    "title": "Acordo de Cobrança de Royalties Pendentes - Curitiba e Campinas",
+    "description": "Cobrar o saldo remanescente de Royalties da unidade Curitiba (R$ 604,00) e o saldo integral de Campinas (R$ 900,00) para regularização do caixa consolidado da franqueadora.",
+    "impact": "MEDIUM",
+    "estimatedRevenue": 1504.00,
+    "priority": "MEDIUM",
+    "action": "Disparar notificação financeira automática via sistema com link de pagamento e opções de parcelamento no cartão para as duas unidades."
+  },
+  {
+    "title": "Implementação de Campanhas de Cross-Sell Automatizadas - Curitiba",
+    "description": "Ativar o módulo de IA focado em Cross-Sell pós-procedimento na unidade Curitiba, espelhando a régua de sucesso utilizada na unidade Jardins, visando elevar a taxa atual de 18% para a média de 28%.",
+    "impact": "HIGH",
+    "estimatedRevenue": 4200.00,
+    "priority": "MEDIUM",
+    "action": "Clonar os parâmetros da automação `aut_002` (Jardins) para a base de dados de Curitiba através do painel master de IA."
+  },
+  {
+    "title": "Expansão de Capacidade Operacional e Ajuste de Preço - Jardins",
+    "description": "Aproveitar o teto de ocupação de 95% às 17h e o alto NPS (94.5) para aplicar um reajuste linear de 5% nos procedimentos de maior demanda (Volume Russo) ou abrir um terceiro turno de atendimento (corujão VIP).",
+    "impact": "MEDIUM",
+    "estimatedRevenue": 3400.00,
+    "priority": "LOW",
+    "action": "Atualizar a tabela de preços no sistema ERP para novos agendamentos criados a partir do dia 01 do próximo mês."
+  }
+]

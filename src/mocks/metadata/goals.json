@@ -1,0 +1,16 @@
+{
+  "networkGlobalTargets": {
+    "monthlyRevenue": 210000.00,
+    "networkOccupancyRate": 0.70,
+    "averageTicket": 245.00,
+    "aiAutomationRate": 0.60,
+    "maxNoShowRate": 0.05,
+    "maxChurnRate": 0.04
+  },
+  "distributionWeight": {
+    "unt_01_jardins": 0.31,
+    "unt_02_goiania": 0.24,
+    "unt_03_curitiba": 0.21,
+    "unt_04_campinas": 0.24
+  }
+}

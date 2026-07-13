@@ -1,0 +1,95 @@
+{
+  "layout": "master-split-screen",
+  "filters": {
+    "periods": [
+      "Hoje",
+      "Ontem",
+      "Últimos 7 dias",
+      "Últimos 30 dias",
+      "Mês Atual (Jun/2026)",
+      "Mês Anterior",
+      "Últimos 90 dias",
+      "Este Trimestre",
+      "Ano Atual"
+    ],
+    "regions": [
+      "Todas as Regiões",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Minas Gerais",
+      "Paraná",
+      "Bahia",
+      "Rio Grande do Sul"
+    ]
+  },
+  "permissions": ["view_network_consolidated", "trigger_global_billing", "override_ai_rules"],
+  "modules": [
+    {
+      "id": "mod_command_center",
+      "component": "CommandCenterHero",
+      "dataSource": "COMMAND CENTER",
+      "w": 12, "h": 8
+    },
+    {
+      "id": "mod_net_insights",
+      "component": "GlobalInsightsTicker",
+      "dataSource": "INSIGHTS/overview.json",
+      "w": 12, "h": 4
+    },
+    {
+      "id": "mod_net_royalties",
+      "component": "FranchiseRoyaltiesLedger",
+      "dataSource": "FINANCE/royalties.json",
+      "w": 6, "h": 6
+    },
+    {
+      "id": "mod_net_benchmark",
+      "component": "NetworkBenchmarkMatrix",
+      "dataSource": "BENCHMARK",
+      "w": 6, "h": 6
+    },
+    {
+      "id": "mod_net_forecast",
+      "component": "PredictiveNetworkForecast",
+      "dataSource": "FORECAST",
+      "w": 12, "h": 5
+    }
+  ],
+  "notifications": {
+    "unread": 8,
+    "items": [
+      {
+        "id": 1,
+        "type": "critical",
+        "title": "semana abaixo de 60% de ocupação",
+        "description": "Potencial perda de R$ 7.400 esta mês.",
+        "time": "2 min",
+        "icon": "alert"
+      },
+      {
+        "id": 2,
+        "type": "warning",
+        "title": "212 pacientes com pacote vencendo",
+        "description": "Campanha de renovação recomendada.",
+        "time": "12 min",
+        "icon": "package"
+      },
+      {
+        "id": 3,
+        "type": "success",
+        "title": "IA recuperou R$ 18.240 hoje",
+        "description": "Follow-ups automáticos concluídos.",
+        "time": "18 min",
+        "icon": "sparkles"
+      },
+      {
+        "id": 4,
+        "type": "info",
+        "title": "23 novos clientes essa semana",
+        "description": "Campanha de Botox finalizada com sucesso.",
+        "time": "1 h",
+        "icon": "trophy"
+      }
+    ]
+  }
+}

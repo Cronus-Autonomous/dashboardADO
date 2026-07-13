@@ -1,0 +1,18 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "days": [
+      { "date": "2026-06-25", "appointments": 32, "occupancy": 0.75, "revenue": 2150.00 },
+      { "date": "2026-06-26", "appointments": 38, "occupancy": 0.82, "revenue": 2680.00 },
+      { "date": "2026-06-27", "appointments": 45, "occupancy": 0.90, "revenue": 3400.00 }
+    ]
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "days": [
+      { "date": "2026-06-25", "appointments": 24, "occupancy": 0.68, "revenue": 1650.00 },
+      { "date": "2026-06-26", "appointments": 28, "occupancy": 0.74, "revenue": 1920.00 },
+      { "date": "2026-06-27", "appointments": 33, "occupancy": 0.85, "revenue": 2450.00 }
+    ]
+  }
+]

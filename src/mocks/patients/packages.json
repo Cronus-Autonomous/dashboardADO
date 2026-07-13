@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pkg_001",
+    "unitId": "unt_01_jardins",
+    "patientId": "pat_sp_991",
+    "packageName": "Plano Anual Sobrancelhas Perfeitas",
+    "totalSessions": 12,
+    "usedSessions": 4,
+    "availableSessions": 8,
+    "value": 900.00,
+    "status": "ACTIVE",
+    "expiresAt": "2027-02-15"
+  },
+  {
+    "id": "pkg_002",
+    "unitId": "unt_01_jardins",
+    "patientId": "pat_sp_342",
+    "packageName": "Trimestral Cílios Custom",
+    "totalSessions": 3,
+    "usedSessions": 3,
+    "availableSessions": 0,
+    "value": 450.00,
+    "status": "COMPLETED",
+    "expiresAt": "2026-06-20"
+  },
+  {
+    "id": "pkg_003",
+    "unitId": "unt_02_goiania",
+    "patientId": "pat_go_511",
+    "packageName": "Recorrência Mensal Além do Olhar",
+    "totalSessions": 4,
+    "usedSessions": 1,
+    "availableSessions": 3,
+    "value": 180.00,
+    "status": "ACTIVE",
+    "expiresAt": "2026-07-25"
+  },
+  {
+    "id": "pkg_004",
+    "unitId": "unt_03_curitiba",
+    "patientId": "pat_pr_104",
+    "packageName": "Passaporte Estética Facial",
+    "totalSessions": 6,
+    "usedSessions": 2,
+    "availableSessions": 4,
+    "value": 720.00,
+    "status": "ACTIVE",
+    "expiresAt": "2026-11-02"
+  },
+  {
+    "id": "pkg_005",
+    "unitId": "unt_04_campinas",
+    "patientId": "pat_cp_022",
+    "packageName": "Combo Boas-Vindas Cambuí",
+    "totalSessions": 2,
+    "usedSessions": 0,
+    "availableSessions": 2,
+    "value": 150.00,
+    "status": "ACTIVE",
+    "expiresAt": "2026-08-01"
+  }
+]

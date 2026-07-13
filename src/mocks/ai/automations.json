@@ -1,0 +1,42 @@
+[
+  {
+    "id": "aut_001",
+    "unitId": "unt_01_jardins",
+    "name": "Recuperação de Clientes Churn (Inativos 60d)",
+    "status": "ACTIVE",
+    "patients": 340,
+    "generatedRevenue": 12400.00,
+    "savedHours": 56.5,
+    "startedAt": "2026-01-10T08:00:00Z"
+  },
+  {
+    "id": "aut_002",
+    "unitId": "unt_01_jardins",
+    "name": "Cross-Sell: Pós-Design de Sobrancelha",
+    "status": "ACTIVE",
+    "patients": 520,
+    "generatedRevenue": 7540.00,
+    "savedHours": 43.0,
+    "startedAt": "2026-02-15T08:00:00Z"
+  },
+  {
+    "id": "aut_003",
+    "unitId": "unt_02_goiania",
+    "name": "Lembrete de Agendamento Preventivo No-Show",
+    "status": "ACTIVE",
+    "patients": 845,
+    "generatedRevenue": 14200.00,
+    "savedHours": 70.0,
+    "startedAt": "2025-11-01T08:00:00Z"
+  },
+  {
+    "id": "aut_004",
+    "unitId": "unt_04_campinas",
+    "name": "Boas-vindas e Atendimento Inicial",
+    "status": "PAUSED",
+    "patients": 150,
+    "generatedRevenue": 1800.00,
+    "savedHours": 12.5,
+    "startedAt": "2026-05-20T10:00:00Z"
+  }
+]

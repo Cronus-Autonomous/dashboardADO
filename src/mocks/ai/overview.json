@@ -1,0 +1,62 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "conversations": 1840,
+    "appointments": 245,
+    "followups": 340,
+    "reactivations": 88,
+    "crossSell": 52,
+    "generatedRevenue": 28450.00,
+    "savedHours": 152.5,
+    "responseTime": 14,
+    "FCR": 0.88,
+    "automationRate": 0.692,
+    "humanTransfer": 0.12,
+    "customerSatisfaction": 4.8
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "conversations": 1420,
+    "appointments": 178,
+    "followups": 285,
+    "reactivations": 61,
+    "crossSell": 34,
+    "generatedRevenue": 18900.00,
+    "savedHours": 110.0,
+    "responseTime": 18,
+    "FCR": 0.82,
+    "automationRate": 0.574,
+    "humanTransfer": 0.19,
+    "customerSatisfaction": 4.6
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "conversations": 1150,
+    "appointments": 122,
+    "followups": 210,
+    "reactivations": 45,
+    "crossSell": 21,
+    "generatedRevenue": 13200.00,
+    "savedHours": 82.5,
+    "responseTime": 22,
+    "FCR": 0.79,
+    "automationRate": 0.527,
+    "humanTransfer": 0.22,
+    "customerSatisfaction": 4.5
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "conversations": 680,
+    "appointments": 48,
+    "followups": 115,
+    "reactivations": 14,
+    "crossSell": 6,
+    "generatedRevenue": 4800.00,
+    "savedHours": 41.0,
+    "responseTime": 35,
+    "FCR": 0.68,
+    "automationRate": 0.296,
+    "humanTransfer": 0.38,
+    "customerSatisfaction": 4.1
+  }
+]

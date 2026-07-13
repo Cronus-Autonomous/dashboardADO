@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "averageCps": 86,
+    "totalUnits": 40,
+    "criticalUnits": 2
+  },
+  "states": [
+    {
+      "uf": "SP",
+      "name": "São Paulo",
+      "classification": "elite",
+      "cps": 94,
+      "units": 12,
+      "revenue": 2284500,
+      "occupancy": 89,
+      "ia": 42,
+      "cities": [
+        {
+          "name": "Moema",
+          "x": 418,
+          "y": 345,
+          "cps": 97
+        },
+        {
+          "name": "Campinas",
+          "x": 382,
+          "y": 314,
+          "cps": 92
+        }
+      ]
+    },
+    {
+      "uf": "RJ",
+      "name": "Rio de Janeiro",
+      "classification": "excellent",
+      "cps": 84,
+      "units": 5,
+      "revenue": 965000,
+      "occupancy": 84,
+      "ia": 37,
+      "cities": [
+        {
+          "name": "Barra",
+          "x": 462,
+          "y": 362,
+          "cps": 86
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2026-06-26T10:15:00Z",
+    "unitId": "unt_01_jardins",
+    "description": "Recebimento Lote Cartão Débito/Crédito",
+    "category": "Sales",
+    "value": 4550.00,
+    "type": "INFLOW"
+  },
+  {
+    "date": "2026-06-26T14:30:00Z",
+    "unitId": "unt_01_jardins",
+    "description": "Fornecedor Produtos de Estética",
+    "category": "Suppliers",
+    "value": 1200.00,
+    "type": "OUTFLOW"
+  },
+  {
+    "date": "2026-06-26T11:00:00Z",
+    "unitId": "unt_02_goiania",
+    "description": "Recebimento Pix Pacote Cílios",
+    "category": "Sales",
+    "value": 350.00,
+    "type": "INFLOW"
+  },
+  {
+    "date": "2026-06-26T17:00:00Z",
+    "unitId": "unt_02_goiania",
+    "description": "Manutenção Sistema de Ar Condicionado",
+    "category": "Maintenance",
+    "value": 450.00,
+    "type": "OUTFLOW"
+  },
+  {
+    "date": "2026-06-26T09:00:00Z",
+    "unitId": "unt_03_curitiba",
+    "description": "Recebimento Lote Cartão Crédito",
+    "category": "Sales",
+    "value": 2100.00,
+    "type": "INFLOW"
+  },
+  {
+    "date": "2026-06-26T16:15:00Z",
+    "unitId": "unt_03_curitiba",
+    "description": "Pagamento Parcial Royalties Mês Anterior",
+    "category": "Franchisor Fees",
+    "value": 2000.00,
+    "type": "OUTFLOW"
+  },
+  {
+    "date": "2026-06-26T11:45:00Z",
+    "unitId": "unt_04_campinas",
+    "description": "Recebimento Procedimento Sobrancelha",
+    "category": "Sales",
+    "value": 180.00,
+    "type": "INFLOW"
+  },
+  {
+    "date": "2026-06-26T15:00:00Z",
+    "unitId": "unt_04_campinas",
+    "description": "Aluguel Imóvel Unidade Cambuí",
+    "category": "Fixed Costs",
+    "value": 5000.00,
+    "type": "OUTFLOW"
+  }
+]

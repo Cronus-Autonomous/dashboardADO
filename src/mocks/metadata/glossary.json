@@ -1,0 +1,26 @@
+{
+  "revenue": {
+    "title": "Faturamento Bruto",
+    "description": "Total de receita gerada em vendas de procedimentos, pacotes e produtos dentro do período selecionado."
+  },
+  "ticket": {
+    "title": "Ticket Médio",
+    "description": "Valor médio gasto por paciente em cada transação comercial na unidade."
+  },
+  "occupancy": {
+    "title": "Taxa de Ocupação",
+    "description": "Percentual de horas produtivas trabalhadas pelas profissionais em relação à capacidade total de horas disponíveis na agenda."
+  },
+  "CPS": {
+    "title": "Custo por Sessão",
+    "description": "Indicador de eficiência operacional que mede o custo fixo e comissões diluídos por cada atendimento realizado pela profissional."
+  },
+  "FCR": {
+    "title": "First Contact Resolution",
+    "description": "Percentual de conversas com clientes que foram totalmente resolvidas pela Inteligência Artificial no primeiro contato, sem necessidade de intervenção humana."
+  },
+  "automationRate": {
+    "title": "Taxa de Automação",
+    "description": "Proporção de interações comerciais iniciadas e concluídas de ponta a ponta pelos robôs de IA da franqueadora."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-06-27T14:16:49Z",
+  "summary": "Desempenho da rede puxado pela eficiência máxima em Jardins e Goiânia, enquanto Curitiba estabiliza caixa e Campinas entra em regime de intervenção comercial emergencial.",
+  "priorities": [
+    "Aporte de capital de giro e ativação de IA na unidade Campinas nas próximas 24 horas.",
+    "Notificação e acordo de parcelamento para R$ 1.504,00 em royalties atrasados (Campinas/Curitiba).",
+    "Reajuste de tabela e criação do terceiro turno (Corujão VIP) na unidade Jardins para mitigar teto de ocupação."
+  ],
+  "alerts": [
+    "Insolvência iminente em Campinas devido a fluxo de caixa negativo de R$ -2.500,00.",
+    "Taxa de No-Show em Campinas atingindo pico crítico de 9% (limite recomendado: 5%).",
+    "Estagnação da receita mensal de Curitiba com retração de -1.2% versus mês anterior."
+  ],
+  "recommendations": [
+    { "target": "unt_04", "type": "OPERATIONAL", "text": "Ativar automação aut_004 imediatamente para triagem de 108 leads parados." },
+    { "target": "unt_03", "type": "MARKETING", "text": "Clonar régua de Cross-Sell automatizada de Jardins para elevar margem interna." }
+  ],
+  "automationsRunning": 3,
+  "todayRecoveredRevenue": 14200.00,
+  "todaySavedHours": 12.5,
+  "todayAppointments": 116,
+  "todayNoShows": 6,
+  "todayCampaigns": 4,
+  "topOpportunities": [
+    { "title": "Ajuste Linear de Preços (Jardins)", "potentialRevenue": 3400.00, "ROI": "Imediato" },
+    { "title": "Resgate de Leads Qualificados (Campinas)", "potentialRevenue": 8500.00, "ROI": "Alto" }
+  ],
+  "criticalUnits": [
+    { "unitId": "unt_04_campinas", "status": "CRITICAL", "reason": "Meta em 37.5%, queima de caixa e churn em 11%" }
+  ],
+  "criticalProfessionals": [
+    { "id": "prf_sp_09", "unitId": "unt_04_campinas", "name": "Carolina Mendes", "reason": "Ocupação em 42% e conversão de avaliações em apenas 29%" }
+  ]
+}

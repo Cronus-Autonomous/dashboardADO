@@ -1,0 +1,42 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "nextMonthRevenue": 72000.00,
+    "nextQuarterRevenue": 222000.00,
+    "expectedOccupancy": 0.80,
+    "expectedNoShow": 0.035,
+    "expectedPackages": 105,
+    "expectedRoyalties": 432000,
+    "confidence": 0.94
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "nextMonthRevenue": 54500.00,
+    "nextQuarterRevenue": 166000.00,
+    "expectedOccupancy": 0.72,
+    "expectedNoShow": 0.055,
+    "expectedPackages": 78,
+    "expectedRoyalties": 3270.00,
+    "confidence": 0.89
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "nextMonthRevenue": 44800.00,
+    "nextQuarterRevenue": 136000.00,
+    "expectedOccupancy": 0.66,
+    "expectedNoShow": 0.05,
+    "expectedPackages": 58,
+    "expectedRoyalties": 2688.00,
+    "confidence": 0.82
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "nextMonthRevenue": 18500.00,
+    "nextQuarterRevenue": 62000.00,
+    "expectedOccupancy": 0.44,
+    "expectedNoShow": 0.08,
+    "expectedPackages": 22,
+    "expectedRoyalties": 1110.00,
+    "confidence": 0.65
+  }
+]

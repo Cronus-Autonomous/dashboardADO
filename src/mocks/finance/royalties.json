@@ -1,0 +1,34 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "revenue": 68200.00,
+    "royaltyRate": 0.06,
+    "royaltyExpected": 4092.00,
+    "royaltyPaid": 4092.00,
+    "royaltyPending": 0.00
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "revenue": 52100.00,
+    "royaltyRate": 0.06,
+    "royaltyExpected": 3126.00,
+    "royaltyPaid": 3126.00,
+    "royaltyPending": 0.00
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "revenue": 43400.00,
+    "royaltyRate": 0.06,
+    "royaltyExpected": 2604.00,
+    "royaltyPaid": 2000.00,
+    "royaltyPending": 604.00
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "revenue": 15000.00,
+    "royaltyRate": 0.06,
+    "royaltyExpected": 900.00,
+    "royaltyPaid": 0.00,
+    "royaltyPending": 900.00
+  }
+]

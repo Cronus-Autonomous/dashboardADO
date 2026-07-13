@@ -1,0 +1,42 @@
+[
+  {
+    "unitId": "unt_01_jardins",
+    "Leads": 450,
+    "Qualified": 315,
+    "Evaluation": 210,
+    "Budget": 150,
+    "Approved": 63,
+    "Sale": 257,
+    "Retention": 189
+  },
+  {
+    "unitId": "unt_02_goiania",
+    "Leads": 380,
+    "Qualified": 258,
+    "Evaluation": 172,
+    "Budget": 124,
+    "Approved": 47,
+    "Sale": 217,
+    "Retention": 165
+  },
+  {
+    "unitId": "unt_03_curitiba",
+    "Leads": 290,
+    "Qualified": 195,
+    "Evaluation": 136,
+    "Budget": 102,
+    "Approved": 36,
+    "Sale": 182,
+    "Retention": 143
+  },
+  {
+    "unitId": "unt_04_campinas",
+    "Leads": 180,
+    "Qualified": 108,
+    "Evaluation": 75,
+    "Budget": 60,
+    "Approved": 17,
+    "Sale": 68,
+    "Retention": 50
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "exe_109283",
+    "unitId": "unt_01_jardins",
+    "automationId": "aut_002",
+    "patientId": "pat_sp_991",
+    "timestamp": "2026-06-27T11:20:00Z",
+    "status": "SUCCESS",
+    "channel": "WhatsApp",
+    "inputMessage": "Quero marcar o retorno da minha sobrancelha.",
+    "outputMessage": "Olá Mariana! Identifiquei que você fez o design há 20 dias. Tenho horário livre com a Beatriz hoje às 16h ou segunda às 10h. Qual prefere?",
+    "converted": true,
+    "valueGenerated": 95.00
+  },
+  {
+    "id": "exe_109284",
+    "unitId": "unt_01_jardins",
+    "automationId": "aut_001",
+    "patientId": "pat_sp_342",
+    "timestamp": "2026-06-27T13:45:00Z",
+    "status": "HUMAN_TRANSFER",
+    "channel": "WhatsApp",
+    "inputMessage": "Vocês aceitam esse convênio ou dão desconto para quem estuda na USP?",
+    "outputMessage": "Entendi sua dúvida sobre o desconto! Vou passar seu atendimento para a nossa recepção te explicar os detalhes das parcerias acadêmicas. Só um instante.",
+    "converted": false,
+    "valueGenerated": 0.00
+  },
+  {
+    "id": "exe_109285",
+    "unitId": "unt_02_goiania",
+    "automationId": "aut_003",
+    "patientId": "pat_go_511",
+    "timestamp": "2026-06-27T09:15:00Z",
+    "status": "SUCCESS",
+    "channel": "WhatsApp",
+    "inputMessage": "Confirmado, vou sim às 14h.",
+    "outputMessage": "Perfeito, Kamila! Seu horário para Extensão de Cílios está confirmado hoje às 14h com a profissional Kamila Ribeiro. Até logo!",
+    "converted": false,
+    "valueGenerated": 0.00
+  }
+]
