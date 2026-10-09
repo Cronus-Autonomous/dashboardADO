@@ -1,29 +1,3 @@
-// import { SidebarGroup } from "./SidebarGroup";
-// import { CommandCenterCard } from "./CommandCenterCard";
-// import sidebarData from "@/mocks/dashboard/sidebar.json";
-
-// export function Sidebar({ user }: { user: any }) {
-//   return (
-//     <aside className="w-72 h-screen bg-zinc-950 border-r border-zinc-800 flex flex-col p-4 gap-4">
-      
-//       {/* Top / Brand */}
-//       <div className="text-white font-semibold text-lg px-2">
-//         Intelis {user?.role ? `- ${user.role}` : ""}
-//       </div>
-
-//       {/* Command Center destacado */}
-//       <CommandCenterCard />
-
-//       {/* Menu */}
-//       <div className="flex flex-col gap-2 mt-2">
-//         {sidebarData.groups.map((group) => (
-//           <SidebarGroup key={group.title} group={group} />
-//         ))}
-//       </div>
-//     </aside>
-//   );
-// }
-
 import { useState } from "react";
 import { SidebarGroup } from "./SidebarGroup";
 import { CommandCenterCard } from "./CommandCenterCard";
