@@ -14,7 +14,6 @@ import { Card } from "./Card";
 
 export function RevenueVsGoalChart() {
   const ultimo = dailyRevenue[dailyRevenue.length - 1];
-  const pctMeta = (ultimo.acumulado / ultimo.meta) * (22 / 30) * 100;
   // simpler: real attainment vs meta-to-date
   const atingido = (ultimo.acumulado / ultimo.meta) * 100;
 
@@ -70,7 +69,7 @@ export function RevenueVsGoalChart() {
                 fontSize: 12,
               }}
               labelStyle={{ color: "#6272a4" }}
-              formatter={(v: number, name) => [formatBRL(v), name]}
+              formatter={(v, name) => [formatBRL(Number(v)), name]}
               labelFormatter={(l) => `Dia ${l}`}
             />
             <Bar dataKey="acumulado" name="Acumulado" fill="url(#barPink)" radius={[6, 6, 0, 0]} />
