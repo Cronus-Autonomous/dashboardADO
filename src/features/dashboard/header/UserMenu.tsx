@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Settings, User, LogOut, ChevronDown } from "lucide-react";
 
-export function UserMenu({ user, logout }: { user: any; logout: () => void }) {
+export function UserMenu({ user, logout }: { user: string; logout: () => void }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -11,22 +11,18 @@ export function UserMenu({ user, logout }: { user: any; logout: () => void }) {
         className="flex items-center gap-3 rounded-2xl border border-dracula-line/60 bg-dracula-card px-3 py-2 transition hover:border-dracula-purple/40"
       >
         <img
-          src={
-            user?.isFranchise
-              ? 'https://6a405018f4f12d1dab64899a.imgix.net/sandbox/2026-03-11_17-08.png'
-              : "https://6a405018f4f12d1dab64899a.imgix.net/sandbox/1723742710170.jpg"
-          }
+          src='https://res.cloudinary.com/xiupvhfs/image/upload/v1792115963/2026-10-15_22-59.png'
           className="h-11 w-11 rounded-full object-cover"
-          alt={user?.name || 'User avatar'}
+          alt="User avatar"
         />
 
         <div className="hidden text-left lg:block">
             <p className="text-sm font-semibold text-dracula-fg">
-            {user?.name || null}
+            {user}
           </p>
 
           <p className="text-xs text-dracula-muted">
-            {user?.title || null}
+            CEO
           </p>
         </div>
 
@@ -45,18 +41,6 @@ export function UserMenu({ user, logout }: { user: any; logout: () => void }) {
           />
 
           <div className="absolute right-0 z-20 mt-2 w-64 overflow-hidden rounded-2xl border border-dracula-line/60 bg-dracula-card-2 shadow-2xl">
-
-            <div className="border-b border-dracula-line/60 p-4">
-
-              <p className="font-semibold text-dracula-fg">
-                {user?.name || null}
-              </p>
-
-              <p className="text-sm text-dracula-muted">
-                {user?.title || null}
-              </p>
-
-            </div>
 
             <button className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm text-dracula-fg transition hover:bg-dracula-line/30 cursor-pointer">
               <User size={18} />

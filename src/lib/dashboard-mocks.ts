@@ -23,8 +23,8 @@ export const regioes = [
 export const kpis = [
   {
     id: "faturamento",
-    label: "Faturamento da Rede (Hoje)",
-    value: "R$ 145.200",
+    label: "Faturamento realizado",
+    value: "R$ 68.200",
     delta: "+12,4%",
     deltaDir: "up" as const,
     sub: "vs. ontem",
@@ -188,11 +188,11 @@ export const kpis = [
 export const kpis_unidade = [
   {
     id: "faturamento",
-    label: "Faturamento (mês atual)",
-    value: "R$ 418.320",
-    delta: "+10,14%",
+    label: "Faturamento Realizado",
+    value: "R$ 68.320",
+    delta: "68,14%",
     deltaDir: "up" as const,
-    sub: "vs. mês anterior",
+    sub: "da meta de 100mil",
     accent: "green" as const,
     icon: "DollarSign" as const,
     sparkline: [
@@ -212,14 +212,14 @@ export const kpis_unidade = [
     ]
   },
   {
-    id: "meta",
-    label: "Meta do mês",
-    value: "R$ 400.000",
-    delta: "104,6%",
-    deltaDir: "up" as const,
-    sub: "atingida",
-    accent: "purple" as const,
-    icon: "CalendarCheck" as const,
+    id: "projecao",
+    label: "Projeção de fechamento",
+    value: "R$ 92.000",
+    delta: "R$ 8.000",
+    deltaDir: "down" as const,
+    sub: "abaixo da meta",
+    accent: "orange" as const,
+    icon: "Coins" as const,
     sparkline: [
         42,
         44,
@@ -234,14 +234,14 @@ export const kpis_unidade = [
     ]
   },
   {
-    id: "ticket_medio",
-    label: "Ticket médio",
-    value: "R$ 648",
-    delta: "3,6%",
+    id: "lucro_operacional",
+    label: "Lucro Operacional Estimado",
+    value: "R$ 18.980",
+    delta: "27,2%",
     deltaDir: "up" as const,
-    sub: "vs. mês anterior",
-    accent: "purple" as const,
-    icon: "Target" as const,
+    sub: "margem estimada",
+    accent: "green" as const,
+    icon: "HandCoins" as const,
     sparkline: [
         42,
         44,
@@ -258,14 +258,14 @@ export const kpis_unidade = [
     ]
   },
   {
-    id: "ocupacao",
-    label: "Ocupação da agenda",
-    value: "91%",
-    delta: "+5 pp",
+    id: "margem_contribuicao",
+    label: "Margem de Contribuição",
+    value: "45%",
+    delta: "+3 pp",
     deltaDir: "up" as const,
-    sub: "vs. mês anterior",
-    accent: "purple" as const,
-    icon: "Sparkles" as const,
+    sub: "comparada a meta",
+    accent: "green" as const,
+    icon: "Receipt" as const,
     sparkline: [
         42,
         44,
@@ -280,54 +280,26 @@ export const kpis_unidade = [
     ]
   },
   {
-    id: "conversao",
-    label: "Conversão",
-    value: "42,3%",
-    delta: "4,8 pp",
-    deltaDir: "up" as const,
-    sub: "vs. mês anterior",
-    accent: "purple" as const,
-    icon: "Heart" as const,
-    sparkline: [
-        42,
-        44,
-        46,
-        45,
-        42,
-        45,
-        45,
-        46,
-        50,
-        59,
-        58
-    ]
+    id: "ponto-equilibrio",
+    label: "Break-even",
+    value: "R$ 23.640",
+    delta: "R$ 44.759",
+    deltaDir: "up" as const, // Em azul/verde indicando que o faturamento superou o ponto de equilíbrio
+    sub: "superado",
+    accent: "green" as const,
+    icon: "TrendingUp" as const, // Pode alterar posteriormente
+    sparkline: [18, 20, 22, 21, 23, 22, 24, 23, 23.64] // Tendência de evolução/cobertura do ponto de equilíbrio
   },
   {
-    id: "nps",
-    label: "nps da unidade",
-    value: "94",
-    delta: "4 pontos",
+    id: "caixa-disponivel",
+    label: "Caixa disponível",
+    value: "R$ 13.120",
+    delta: "+12%",
     deltaDir: "up" as const,
-    sub: "vs. mês anterior",
-    accent: "purple" as const,
-    icon: "Heart" as const,
-    sparkline: [
-        42,
-        44,
-        46,
-        45,
-        43,
-        42,
-        44,
-        45,
-        45,
-        46,
-        50,
-        53,
-        55,
-        57,
-        57
-    ]
+    sub: "mês passado",
+    accent: "green" as const,
+    icon: "BadgeDollarSign" as const, // Pode alterar posteriormente
+    sparkline: [8, 9, 11, 10, 12, 11, 13, 12.5, 13] // Histórico recente do saldo diário/semanal
   },
 ];
 
@@ -338,11 +310,11 @@ export const revenueOrigin = [
   { name: "Pacotes", value: 8400, color: "#79ffa4" },
 ];
 
-const META_MES = 4_200_000;
+const META_MES = 100_000;
 const DIAS_MES = 30;
 const metaPorDia = META_MES / DIAS_MES;
 
-export const dailyRevenue = Array.from({ length: 28 }, (_, i) => {
+export const dailyRevenue = Array.from({ length: 30 }, (_, i) => {
   const dia = i + 1;
   
   // Criamos uma oscilação baseada no dia da semana para dar realismo (ex: dia 6 e 7 simulando fim de semana)
@@ -359,7 +331,7 @@ export const dailyRevenue = Array.from({ length: 28 }, (_, i) => {
   const ruidoAleatorio = 0.9 + Math.random() * 0.3;
 
   // Faturamento diário base realista
-  const faturamentoDiarioBase = 140000;
+  const faturamentoDiarioBase = 3200;
   const diarioReal = Math.round(faturamentoDiarioBase * fatorSazonal * ruidoAleatorio);
 
   return {

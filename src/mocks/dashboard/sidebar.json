@@ -1,46 +1,28 @@
 {
   "groups": [
     {
-      "title": "Dashboard",
-      "label": "Visão Geral",
-      "icon": "LayoutDashboard",
-      "route": "/"
-    },
-    {
-      "title": "Dashboard",
-      "label": "Unidades",
-      "icon": "Building2",
-      "route": "/"
-    },
-    {
-      "title": "Dashboard",
-      "label": "Performance",
+      "title": "financeiro",
+      "label": "Financeiro",
       "icon": "TrendingUp",
-      "route": "/"
+      "route": "/financeiro"
     },
     {
-      "title": "Dashboard",
-      "label": "Central de Inteligência",
-      "icon": "Brain",
-      "route": "/"
+      "title": "economics",
+      "label": "Economics",
+      "icon": "DollarSign",
+      "route": "/economics"
     },
     {
-      "title": "Dashboard",
-      "label": "IA e Automações",
-      "icon": "Sparkles",
-      "route": "/"
+      "title": "simuladores",
+      "label": "Simuladores",
+      "icon": "Calculator",
+      "route": "/simuladores"
     },
     {
-      "title": "Dashboard",
-      "label": "Ranking",
+      "title": "metas",
+      "label": "Metas e Planejamento",
       "icon": "ChartColumnStacked",
-      "route": "/"
-    },
-    {
-      "title": "Dashboard",
-      "label": "Forecast",
-      "icon": "TrendingUpDown",
-      "route": "/"
+      "route": "/metas"
     }
   ]
 }

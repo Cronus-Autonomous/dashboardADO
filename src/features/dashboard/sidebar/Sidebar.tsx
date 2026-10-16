@@ -1,87 +1,132 @@
 import { useState } from "react";
+import { PanelLeftClose, PanelLeftOpen } from "lucide-react";
 import { SidebarGroup } from "./SidebarGroup";
-import { CommandCenterCard } from "./CommandCenterCard";
 import sidebarData from "@/mocks/dashboard/sidebar.json";
+import logo from "@/assets/02.png";
 
-export function Sidebar() {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+type SidebarProps = {
+  currentRoute?: string;
+  onNavigate?: (route: string) => void;
+};
+
+export function Sidebar({ currentRoute, onNavigate }: SidebarProps) {
+  const [isCollapsed, setIsCollapsed] = useState(true);
+
+  const toggleSidebar = () => {
+    setIsCollapsed((prev) => !prev);
+  };
+
+  // Função que executa a navegação e força o menu a recolher
+  const handleItemClick = (route: string) => {
+    onNavigate?.(route);
+    setIsCollapsed(true); // <-- Recolhe o menu ao clicar em qualquer item
+  };
 
   return (
-    <aside
-      className={`
-        sticky top-0 left-0 h-screen flex flex-col justify-between p-4 
-        bg-[#0b0616] border-r border-white/[0.06] text-slate-300 transition-all duration-300 ease-in-out z-30
-        ${isCollapsed ? "w-20" : "w-45"}
-      `}
-    >
-      {/* --- PARTE SUPERIOR: Logo, Marca e Botão Toggle --- */}
-      <div className="flex flex-col gap-5">
-        <div className={`flex items-center ${isCollapsed ? "justify-center" : "justify-between"} px-2 pt-2`}>
-          
-          {/* Logo e Nome da Marca (Sumiço suave se colapsado) */}
-          {!isCollapsed && (
-            <div className="flex flex-col">
-              <span className="text-white font-bold text-xl tracking-wide flex items-center gap-2">
-                Cronus
-              </span>
-            </div>
-          )}
-
-          {/* Botão de Recolher (Fácil identificação e clique) */}
+    <>
+      {/* SIDEBAR DESKTOP */}
+      <aside
+        className={`
+          group/sidebar fixed inset-y-0 left-0 z-40
+          hidden md:flex flex-col
+          bg-[#0b0616] border-r border-white/[0.06]
+          text-slate-300
+          transition-[width] duration-300 ease-in-out
+          ${isCollapsed ? "w-[68px]" : "w-[248px]"}
+        `}
+      >
+        {/* HEADER */}
+        <div
+          className={`
+            relative flex h-[64px] shrink-0 items-center
+            ${isCollapsed ? "justify-center" : "justify-between"}
+            px-3
+          `}
+        >
+          {/* LOGO */}
           <button
-            onClick={() => setIsCollapsed(!isCollapsed)}
-            className="p-2 rounded-xl bg-white/[0.03] hover:bg-white/[0.08] border border-white/[0.05] text-slate-400 hover:text-white transition-colors"
-            title={isCollapsed ? "Expandir Menu" : "Recolher Menu"}
+            type="button"
+            onClick={toggleSidebar} // Permite expandir/recolher ao clicar na logo também
+            aria-label="Alternar menu"
+            title="Alternar menu"
+            className="
+              relative flex items-center justify-center shrink-0
+              rounded-xl h-10 w-10 cursor-pointer
+              group/logo
+            "
           >
-            {isCollapsed ? (
-              /* Ícone de Expandir (Seta para Direita) */
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
-              </svg>
-            ) : (
-              /* Ícone de Recolher (Seta para Esquerda) */
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M11 19l-7-7 7-7M19 19l-7-7 7-7" />
-              </svg>
+            <img
+              src={logo}
+              alt="Além do Olhar"
+              className={`
+                h-9 w-9 rounded-full object-cover
+                transition-opacity duration-200
+                ${isCollapsed ? "opacity-100 group-hover/logo:opacity-0" : "opacity-100"}
+              `}
+            />
+
+            {/* ÍCONE NO HOVER: MENU RECOLHIDO */}
+            {isCollapsed && (
+              <span
+                className="
+                  absolute inset-0 grid place-items-center
+                  rounded-xl bg-white/[0.08]
+                  opacity-0 group-hover/logo:opacity-100
+                  transition-opacity duration-200
+                "
+              >
+                <PanelLeftOpen className="h-5 w-5 text-white" />
+              </span>
             )}
           </button>
+
+          {/* NOME E BOTÃO: MENU EXPANDIDO */}
+          {!isCollapsed && (
+            <>
+              <span className="ml-2 flex-1 truncate text-[15px] font-semibold tracking-tight text-white">
+                Além do Olhar
+              </span>
+
+              <button
+                type="button"
+                onClick={toggleSidebar}
+                aria-label="Recolher menu"
+                title="Recolher menu"
+                className="
+                  grid h-9 w-9 shrink-0 place-items-center
+                  rounded-lg text-slate-400
+                  hover:bg-white/[0.08] hover:text-white
+                  transition-colors
+                "
+              >
+                <PanelLeftClose className="h-5 w-5" />
+              </button>
+            </>
+          )}
         </div>
 
-        {/* --- MENU DE NAVEGAÇÃO COM SCROLL INTERNO SE NECESSÁRIO --- */}
-        <div className="flex flex-col gap-1 max-h-[calc(100vh-280px)] pr-1 ">
-          {sidebarData.groups.map((group) => (
-            <SidebarGroup 
-              key={group.title} 
-              group={group} 
-              isCollapsed={isCollapsed} 
-            />
-          ))}
-        </div>
-      </div>
-
-      {/* --- PARTE INFERIOR: Command Center & Assinatura Corporativa --- */}
-      <div className="flex flex-col gap-4 mt-auto">
-        
-        {/* Command Center Card (Ocultado ou minimizado no modo colapsado) */}
-        {!isCollapsed ? (
-          <CommandCenterCard />
-        ) : (
-          <div className="flex justify-center">
-            {/* Versão minimalista do card quando colapsado */}
-            <div className="p-3 rounded-xl bg-purple-500/10 border border-purple-500/20 text-purple-400 animate-pulse cursor-pointer" title="Command Center Ativo">
-              ⚡
-            </div>
+        {/* NAVEGAÇÃO */}
+        <nav
+          aria-label="Navegação principal"
+          className="
+            flex-1 min-h-0 overflow-y-auto overflow-x-hidden
+            px-2 py-3
+            scrollbar-thin scrollbar-thumb-white/10
+          "
+        >
+          <div className="flex flex-col gap-1">
+            {sidebarData.groups.map((group) => (
+              <SidebarGroup
+                key={group.route}
+                group={group}
+                isCollapsed={isCollapsed}
+                currentRoute={currentRoute}
+                onNavigate={() => handleItemClick(group.route)} // Chama a função que navega e recolhe
+              />
+            ))}
           </div>
-        )}
-
-        {/* Branding da Empresa Mãe (Igual ao rodapé da imagem_321d2c.png) */}
-        {/* {!isCollapsed && (
-          <div className="pt-2 border-t border-white/[0.05] px-2 flex flex-col">
-            <span className="text-white font-medium tracking-wide text-lg leading-tight">Cronus</span>
-            <span className="text-xs text-slate-500">Inteligência Operacional</span>
-          </div>
-        )} */}
-      </div>
-    </aside>
+        </nav>
+      </aside>
+    </>
   );
 }

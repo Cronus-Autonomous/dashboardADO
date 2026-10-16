@@ -54,7 +54,7 @@ export function KpiCard({
           <Icon className={`h-4 w-4 ${c.text}`} />
         </div>
       </div>
-      <p className={`mt-4 text-3xl font-bold tracking-tight ${highlight ? c.text : "text-dracula-fg"}`}>
+      <p className={`mt-4 text-2xl font-bold tracking-tight ${highlight ? c.text : "text-dracula-fg"}`}>
         {value}
       </p>
       <div className="mt-3 flex items-center gap-2 text-xs">

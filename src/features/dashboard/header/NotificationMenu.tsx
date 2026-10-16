@@ -116,7 +116,7 @@ export function NotificationMenu({ user }: SidebarProps) {
             </div>
 
             <button className="flex w-full items-center justify-center gap-2 border-t border-dracula-line/60 bg-dracula-card p-4 text-sm font-medium text-dracula-purple transition hover:bg-dracula-line/20">
-              Ver Central de Operações
+              Ver todas as notificações
               <ChevronRight size={16} />
             </button>
           </div>

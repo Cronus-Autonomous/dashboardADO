@@ -42,10 +42,8 @@
   "periods": [
     { "id": "per_today", "label": "Hoje", "days": 0 },
     { "id": "per_last_7", "label": "Últimos 7 dias", "days": 7 },
-    { "id": "per_current", "label": "Mês Atual", "days": 30 },
     { "id": "per_cur_month", "label": "Mês Atual", "days": 30 },
     { "id": "per_last_90", "label": "Este Trimestre", "days": 90 },
-    { "id": "per_last_year", "label": "Ano Atual", "days": 365 },
-    { "id": "per_custom", "label": "Período Personalizado", "days": null }
+    { "id": "per_last_year", "label": "Ano Atual", "days": 365 }
   ]
 }

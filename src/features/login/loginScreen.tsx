@@ -1,16 +1,17 @@
 import { useState } from "react";
+import logo from "@/assets/02.png";
 
 const MOCK_USERS: Record<string, { name: string; role: string; title: string; isFranchise?: boolean; photo: string }> = {
-  "patricia@cronus.com": { name: "Patrícia", role: "franqueador", title: "CEO", isFranchise: false, photo: "https://6a405018f4f12d1dab64899a.imgix.net/sandbox/1723742710170.jpg" },
+  "natalia@cronus.com": { name: "Natália", role: "franqueado", title: "Gerente", isFranchise: false, photo: "https://res.cloudinary.com/xiupvhfs/image/upload/v1792115963/2026-10-15_22-59.png" },
   "alisson@cronus.com": { name: "Alisson", role: "franqueado", title: "Gerente de unidade", isFranchise: true, photo: "https://6a405018f4f12d1dab64899a.imgix.net/sandbox/2026-03-11_17-08.png" },
 };
 
 export function LoginScreen({ onLoginSuccess }: { onLoginSuccess: (user: any) => void }) {
-  const [email, setEmail] = useState("patricia@cronus.com"); // Deixado pré-preenchido para facilitar seu teste
+  const [email, setEmail] = useState("natalia@cronus.com");
   const [password, setPassword] = useState("123456");
   const [error, setError] = useState("");
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
     setError("");
 
@@ -26,31 +27,33 @@ export function LoginScreen({ onLoginSuccess }: { onLoginSuccess: (user: any) =>
   };
 
   return (
-    <div className="relative flex min-h-screen w-full items-center justify-center bg-[#090214] text-slate-200 overflow-hidden font-sans select-none">
+    <div className="relative flex min-h-screen w-full items-center justify-center text-slate-200 overflow-hidden font-sans select-none">
       
-      {/* Planeta / Brilho de Fundo Curvado como no design */}
-      <div className="absolute top-[40%] left-1/2 -translate-x-1/2 w-[200vw] h-[150vh] rounded-[50%] bg-gradient-to-t from-purple-900/10 via-purple-600/30 to-transparent blur-3xl pointer-events-none" />
-      <div className="absolute top-[68%] left-1/2 -translate-x-1/2 w-[140vw] h-[2px] bg-gradient-to-r from-transparent via-purple-500 to-transparent opacity-60 shadow-[0_0_20px_rgba(168,85,247,0.8)] pointer-events-none" />
+      {/* Imagem de fundo cobrindo 100% (com object-fill para esticar e preencher sem manter proporções se necessário) */}
+      <img 
+        src="https://res.cloudinary.com/xiupvhfs/image/upload/v1792114841/4b87faf82613095afea3e16190e2f4c0.jpg" 
+        alt="Fundo Login" 
+        className="absolute inset-0 w-full h-full object-fill z-0 pointer-events-none"
+      />
 
-      {/* Pequenos elementos decorativos flutuando (estrelas/ícones) */}
-      <div className="absolute top-1/4 left-1/4 animate-pulse opacity-40 text-purple-400 text-xl">✦</div>
-      <div className="absolute top-1/3 right-1/4 animate-pulse opacity-60 text-indigo-300 text-2xl">✦</div>
+      {/* Camada de escurecimento opcional para destacar o card de login sobre a imagem */}
+      <div className="absolute inset-0 bg-black/40 z-0 pointer-events-none" />
 
       {/* Card Central Glassmorphism */}
       <div className="relative z-10 w-full max-w-md mx-4 p-8 rounded-3xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl shadow-[0_25px_50px_-12px_rgba(0,0,0,0.7)] flex flex-col items-center">
         
         {/* Ícone de Brilho Superior */}
-            <img
-              src='https://6a405018f4f12d1dab64899a.imgix.net/alem-do-olhar/logo.jpg'
-              className="h-25 w-25 rounded-full object-cover"
-            />
+        <img
+          src={logo}
+          className="h-25 w-25 rounded-full object-cover"
+        />
 
         {/* Título Conforme Solicitado */}
-        <h1 className="text-2xl font-semibold text-white tracking-wide text-center">
+        <h1 className="text-2xl font-semibold text-white tracking-wide text-center mt-2">
           Bem-vindo
         </h1>
         <p className="text-xs text-slate-400 mt-2 text-center max-w-[280px] leading-relaxed">
-          Centro Operacional de Inteligência. Insira suas credenciais do ecossistema.
+          Centro de Inteligência financeira e operacional.
         </p>
 
         {/* Formulário */}
@@ -83,28 +86,14 @@ export function LoginScreen({ onLoginSuccess }: { onLoginSuccess: (user: any) =>
             </p>
           )}
 
-          {/* Dica de credenciais para desenvolvimento */}
-          <div className="bg-white/[0.02] border border-white/[0.05] p-2.5 rounded-lg text-[11px] text-slate-400 space-y-0.5">
-            <span className="block font-semibold text-purple-400">Usuários de Teste:</span>
-            <div>• patricia@cronus.com <span className="opacity-50">(Franqueador)</span></div>
-            <div>• alisson@cronus.com <span className="opacity-50">(Franqueado)</span></div>
-          </div>
-
           {/* Botão de Submit Estilizado */}
           <button
             type="submit"
-            className="w-full py-3 mt-2 rounded-xl font-medium text-sm text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 hover:opacity-90 shadow-[0_4px_20px_rgba(168,85,247,0.4)] transition-all active:scale-[0.99]"
+            className="w-full py-3 mt-2 rounded-xl font-medium text-sm text-[#9d522a] bg-[#ffe7d9] hover:opacity-80 transition-all active:scale-[0.99] cursor-pointer"
           >
-            ENTRAR NO CENTRO OPERACIONAL
+            ENTRAR
           </button>
         </form>
-
-        {/* Rodapé com Links Sociais / Integrações Ocultas (Igual ao design original) */}
-        <div className="flex items-center gap-6 mt-8 opacity-40 hover:opacity-70 transition-opacity">
-          <span className="text-xs cursor-pointer">🍎</span>
-          <span className="text-xs cursor-pointer">🌐</span>
-          <span className="text-xs cursor-pointer">💬</span>
-        </div>
 
       </div>
     </div>
