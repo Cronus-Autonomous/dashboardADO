@@ -14,16 +14,16 @@ import {
 export function SimuladorDescontoPage() {
   // 1. Estados dos Parâmetros de Entrada
   const [servico, setServico] = useState("Toxina Botulínica");
-  const [precoTabela, setPrecoTabela] = useState(2800);
+  const [precoTabela] = useState(2800);
   const [descontoPct, setDescontoPct] = useState(15);
   
   // Parâmetros econômicos
-  const [custoFixo, setCustoFixo] = useState(180);
-  const [comissaoPct, setComissaoPct] = useState(20);
-  const [margemMinima, setMargemMinima] = useState(30);
-  const [impostosPct, setImpostosPct] = useState(5);
-  const [taxaParcelamentoPct, setTaxaParcelamentoPct] = useState(2.5);
-  const [limiteAprovacao, setLimiteAprovacao] = useState(20);
+  const [custoFixo] = useState(180);
+  const [comissaoPct] = useState(20);
+  const [margemMinima] = useState(30);
+  const [impostosPct] = useState(5);
+  const [taxaParcelamentoPct] = useState(2.5);
+  const [limiteAprovacao] = useState(20);
 
   // Modo Especialista
   const [modoEspecialista, setModoEspecialista] = useState(true);

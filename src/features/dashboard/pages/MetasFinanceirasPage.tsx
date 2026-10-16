@@ -5,11 +5,9 @@ import {
   DollarSign, 
   ShoppingBag, 
   Sparkles, 
-  CheckCircle2, 
   ArrowUpRight, 
   Calendar, 
   Zap,
-  BarChart3,
   Award
 } from "lucide-react";
 
